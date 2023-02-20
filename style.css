@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    font-family: 'Mynerve', cursive;
+}
+
+#canvas1{
+    /* border:solid rebeccapurple 3px; */
+    border-radius:100%;
+    position: absolute;
+    left:27%;
+    top:50px
+}
+#canvas2{
+    position: absolute;
+    top:0;
+    color:white
+}
+#canvas3{
+    position: absolute;
+    top:0;
+}
+#canvas_trans{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 2;
+}
+h1{
+    color: aliceblue;
+}
+.port{
+    color: aliceblue;
+    position: absolute;
+    top:50vh;
+    left:80px
+}
+.cool{
+    position: absolute;
+    top:300px;
+    left:1200px;
+    display: block;
+}
+.kids_do{
+    position: absolute;
+    top:550px;
+    left:650px
+}
+body{
+    background-color:black ;
+}
+#magic{
+    color: aliceblue;}
+#find{
+    color: aliceblue;
+    opacity: 0.2;
+}

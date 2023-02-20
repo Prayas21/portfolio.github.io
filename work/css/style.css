@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mynerve', cursive;
+}
+#workpng{
+    position: absolute;
+    top:100px;
+    left: 300px;
+    border-radius: 60px;
+}
+#transition{
+    position: absolute;
+    top:0;
+    z-index: 1;
+}
+#BG_canvas{
+    position: absolute;
+    top:0;
+}
+body{
+    background: #000;
+}
+.bhitra{
+    /* background-color: rgba(89, 148, 200, 0.261); */
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top:244px;
+    left:640px;
+}
+#Photoshop{
+    background-color: aliceblue;
+    width: 43px;
+    height: 43px;
+    position: relative;
+    top: 0;
+    opacity: 0;
+    z-index: 3;
+}
+#Blender{
+    background-color: aliceblue;
+    width: 48px;
+    height: 45px;
+    position: relative;
+    left:65px;
+    top:-44px;
+    opacity: 0;
+    z-index: 3;
+}
+#Js{
+    background-color: aliceblue;
+    width: 43px;
+    height: 45px;
+    position: relative;
+    left:0px;
+    top:-40px;
+    opacity: 0;
+    z-index: 3;
+}
+#Unity{
+    background-color: aliceblue;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    left:65px;
+    top:-82px;
+    opacity: 0;
+    z-index: 3;
+}
+#Photoshop:hover{
+    background-color: aqua;
+}
+
+#Book{
+    background-color: aliceblue;
+    width: 65px;
+    height: 60px;
+    position: absolute;
+    top:78px;
+    left:-130px;
+    opacity: 0;
+    z-index: 3;
+}
+
+#Photo{
+    background-color: aliceblue;
+    width: 65px;
+    height: 60px;
+    position: absolute;
+    top:78px;
+    left:180px;
+    opacity: 0;
+    z-index: 3;
+}
+#back{
+    color: aliceblue;
+    background-color: blueviolet;
+    height: 20px;
+    width: 80px;
+    padding: 20px;
+    position: absolute;
+    top:30px;
+    left: 30px;
+    border-radius: 100% 20px 20px 100%;
+}
+#back:hover{
+    border: 2px solid royalblue;
+}
+#workshop{
+    position: absolute;
+    top:50px;
+    left:550px;
+    font-size: 40px;
+    color: white;
+}
+#transition{
+    position: absolute;
+    top:0px;
+    z-index: 2;
+}

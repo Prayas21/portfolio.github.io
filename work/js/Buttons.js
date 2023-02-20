@@ -1,0 +1,163 @@
+PS=document.getElementById("Photoshop")
+Js=document.getElementById("Blender")
+Unity=document.getElementById("Unity")
+blender=document.getElementById("Js")
+Photo=document.getElementById("Photo")
+Book=document.getElementById("Book")
+Dialoge=document.getElementById("Dialoge")
+
+ps="_ABA_K_VANAM_KHAI_ABA_YESTO_HO_PHOTOSHOP_TETI_BESARI_TA_AUNNA_HALKA_FULKA_LYAPPA_LUPPA_HANXU_FOR_EG_YO_PROJECT_KO_ART_SABAI_PHOTOSHOP_MA_GAREKO_HO.KHAI_AFULAI_TA_RAMRAI_ART_BANAKO_JASTO_LAUXA.TEI_VAYERA_I_WILL_CONSIDER_MYSELF_A_INTERMEDIATE_DESIGER."
+js="_Javascript_ta_javascipt_vai_halyo_ni.KK_HO_KK.Jhau_launi.Aba_k_arni_euta_PROGRAMMING_LANGUAGE_ta_sikna_paryo_vanera_sikna_lako_thikai_lai_rako_xa.REACT_sikni_vanera_COURSE_DOWNLOAD_hanera_rakhya_xy_hernai_jhau_laxa.Tei_vayera_yo_JS_ma_CANVAS_sikeko_apply_hanedeko_golo_golo_anda_haru_eta_uta_parna_ta_yesto_maja_auuxa_tait.CANVAS_IS_FUN.So_I_consider_myself_the_single_most_beautiful_creature."
+unity="_Unity_Sikeko_birsiye"
+blnder="_Blender_ma_Kada_kada_render_hanthe_lagvag_5/6_mahina_vayo_hola_na_chalako.Ramilo_xa_but_k_vo_k_vo_jhau_vandani_laptop_tatera_futla_jasto_garxa_ekxin_chalauda_ani_jatti_khera_ni_crash_ka_crash.Euta_render_huna_1_hr_lauxa.Aba_paxi_gatilo_laptop_payesi.I_am_not_making_any_excuses.You_believe_me_right?.hehe"
+hoto="_Picture_of_my_family"
+ook="_mood_sahi_vako_bela_kharab_garna_book_padera_asthetic_banna_khojdinxu"
+
+i=0
+c=0
+
+p=false
+b=false
+u=false
+j=false
+bo=false
+ph=false
+
+Book.onclick=()=>{
+    p=false
+    c=0
+    b=false
+    u=false
+    j=false
+    bo=true
+    ph=false    
+    Dialoge.innerText=""
+    console.log("book")
+}
+Photo.onclick=()=>{
+    p=false
+    c=0
+    b=false
+    u=false
+    j=false
+    bo=false
+    ph=true    
+    Dialoge.innerText=""
+}
+PS.onclick=()=>{
+    p=true
+    c=0
+    b=false
+    u=false
+    j=false
+    bo=false
+    ph=false    
+    Dialoge.innerText=""
+    console.log("lm")
+}
+blender.onclick=()=>{
+    b=true
+    c=0
+    p=false
+    u=false
+    j=false
+    bo=false
+    ph=false
+    Dialoge.innerText=""
+}
+Unity.onclick=()=>{
+    u=true
+    c=0
+    p=false
+    b=false
+    j=false 
+    bo=false
+ph=false
+    Dialoge.innerText=""
+}
+Js.onclick=()=>{
+    j=true
+    c=0
+    p=false
+    b=false
+    u=false
+    bo=false
+    ph=false
+    console.log("lampo")
+    Dialoge.innerText=""
+}
+function hehe() {
+    if(p){
+        if(i%5==0){  
+        c++
+        if(c<ps.length){
+        Dialoge.innerHTML +=" "+ps[c];}
+        else{
+            p=false
+            c=0
+        }
+    }
+    }
+    if(b){
+        if(i%5==0){  
+        c++
+        if(c<blnder.length){
+        Dialoge.innerHTML +=" "+blnder[c];}
+        else{
+            b=false
+            c=0
+        }
+    }
+    }
+    if(u){
+        if(i%5==0){  
+        c++
+        if(c<unity.length){
+        Dialoge.innerHTML +=" "+unity[c];}
+        else{
+            u=false
+            c=0
+        }
+    }
+    }
+    if(j){
+        if(i%5==0){  
+        c++
+        if(c<js.length){
+        Dialoge.innerHTML +=" "+js[c];}
+        else{
+            j=false
+            c=0
+        }
+        console.log("heheheheh")
+    }
+    }
+    if(bo){
+        if(i%5==0){  
+        c++
+        if(c<ook.length){
+        Dialoge.innerHTML +=" "+ook[c];}
+        else{
+            bo=false
+            c=0
+        }
+    }
+    }
+    if(ph){
+        if(i%5==0){  
+        c++
+        if(c<hoto.length){
+        Dialoge.innerHTML +=" "+hoto[c];}
+        else{
+            ph=false
+            c=0
+        }
+    }
+    }
+}
+function daudi(){
+    i++
+    hehe()
+    requestAnimationFrame(daudi)
+}
+daudi()
